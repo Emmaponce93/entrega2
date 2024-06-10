@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.menu {
+    
+    background-color: black;
+    background-attachment: fixed;
+    color:white;
+    width: auto;
+    height: 100px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.forma{
+    padding: 2rem;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.item{
+    text-decoration: none;
+
+}
+.caja {
+    width: 300px;
+    height: 300px;
+
+    background-color: rgb(148, 226, 226);
+    margin: 20px;
+    padding: 20px;
+    
+    background-image: url("../imagenes/adidas/adidas\ gris.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/* radius sirve para redondear las esquinas*/
+    border-radius: 40px;
+
+}
+.footer {
+    background-color: black;
+}
+.copy{
+    color: white;
+    margin-left: 90%;
+}
+.div-contac{
+    color: black;
+}
+.div-imagenes{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    width: 500px;
+    aspect-ratio: 3/2;
+    border-radius: 40px;
+
+    flex-grow: 1;
+} 
+.div-contac h3 ul li {
+    color: black;
+}
+.carousel-slide{
+    max-width: 50%;
+    height: auto;
+}
+main {
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 4rem;
+    text-align: center;
+}
